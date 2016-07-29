@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fresh Dashboard!</title>
+	
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.6/Chart.bundle.js"></script>
+	<link rel="stylesheet" type="text/css" href="asset/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<div class="item">
+		
+			</div>
+			<div class="item">
+				<p><span class="p-2">SEARCH</span></p>
+			</div>
+			<div class="item">
+				<p>FACEBOOK</p>
+			</div>
+			<div class="item">
+				<p>INSTAGRAM</p>
+			</div>
+			<div class="item">
+				<p>TWITTER</p>
+			</div>
+			<div class="item">
+				&nbsp
+			</div>
+			<div class="item-2">
+				<p><span class="p-2">START</span> JUN 2,2016</p>
+			</div>
+			<div class="item-2">
+				<p><span class="p-2">END</span> JUN 18,2016</p>
+			</div>
+			<div class="item-2">
+				<p><span class="p-2" id="logout">LOG OUT</span></p>
+			</div>
+		</div>
+		<div class="side-bar">
+			<div class="profil-picture">
+				<img src="asset/Fajar.jpg">
+			</div>
+			<div class="info-profil">
+				<p>AHMAD FAJAR</p>
+				<p id="email">ahmad.fajar260695@gmail.com</p>
+			</div>
+			<input type="password" class="password" id="password"><br>
+			<button id="login" type="button" class="button"><span>LOGIN</span></button>
+			<!--input type="button" class="button" id="login" value="LOGIN"-->
+			<div class="footer-side-bar">
+				<div class="option">
+					<i class="material-icons md-dark">settings</i>
+					<i class="material-icons md-dark">help</i>	
+				</div>		
+			</div>
+		</div>
+		<div class="body-con">
+			<div class="item" id="body-child-1">
+				<center>
+					<div style="width:75%; color: #f7f5f5;">
+        				<canvas id="canvas"></canvas>
+    				</div>
+				</center>
+			</div>
+			<div class="item" id="body-child-2">
+				<h4>News</h4>
+				<div class="news">
+					<ul>
+						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</li>
+						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</li>
+						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</li>
+					</ul>
+				</div>
+				<div class="slider-icon">
+					<i class="material-icons item-slider-icon active">fiber_manual_record</i>
+					<i class="material-icons item-slider-icon">fiber_manual_record</i>
+					<i class="material-icons item-slider-icon">fiber_manual_record</i>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="item">
+				<h4>Facebook</h4>
+				<center><table>
+					<tr>
+						<th>No</th>
+						<th>Nama</th>
+						<th>Action</th>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>Lorem ipsum</td>
+						<td><button id="login" type="button" class="button-action"><span>VIEW</span></button></td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>Lorem ipsum</td>
+						<td><button id="login" type="button" class="button-action"><span>VIEW</span></button></td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>Lorem ipsum</td>
+						<td><button id="login" type="button" class="button-action"><span>VIEW</span></button></td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>Lorem ipsum</td>
+						<td><button id="login" type="button" class="button-action"><span>VIEW</span></button></td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>Lorem ipsum</td>
+						<td><button id="login" type="button" class="button-action"><span>VIEW</span></button></td>
+					</tr>
+				</table></center>
+			</div>
+			<div class="item">
+				<h4>Instagram</h4>
+				<center><table>
+					<tr>
+						<th>No</th>
+						<th>Nama</th>
+						<th>Action</th>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>Lorem ipsum</td>
+						<td><button id="login" type="button" class="button-action"><span>VIEW</span></button></td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>Lorem ipsum</td>
+						<td><button id="login" type="button" class="button-action"><span>VIEW</span></button></td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>Lorem ipsum</td>
+						<td><button id="login" type="button" class="button-action"><span>VIEW</span></button></td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>Lorem ipsum</td>
+						<td><button id="login" type="button" class="button-action"><span>VIEW</span></button></td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>Lorem ipsum</td>
+						<td><button id="login" type="button" class="button-action"><span>VIEW</span></button></td>
+					</tr>
+				</table></center>
+			</div>
+			<div class="item">
+				<h4>Twitter</h4>
+				<center><table>
+					<tr>
+						<th>No</th>
+						<th>Nama</th>
+						<th>Action</th>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>Lorem ipsum</td>
+						<td><button id="login" type="button" class="button-action"><span>VIEW</span></button></td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>Lorem ipsum</td>
+						<td><button id="login" type="button" class="button-action"><span>VIEW</span></button></td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>Lorem ipsum</td>
+						<td><button id="login" type="button" class="button-action"><span>VIEW</span></button></td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>Lorem ipsum</td>
+						<td><button id="login" type="button" class="button-action"><span>VIEW</span></button></td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>Lorem ipsum</td>
+						<td><button id="login" type="button" class="button-action"><span>VIEW</span></button></td>
+					</tr>
+				</table></center>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="asset/jquery-3.0.0.js"></script>
+	<script type="text/javascript" src="asset/animate.js"></script>
+</body>
+</html>
